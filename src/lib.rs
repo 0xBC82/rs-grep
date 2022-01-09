@@ -20,7 +20,7 @@ pub fn run(config: &Config) -> Result<(), Box<dyn Error>> {
 pub struct Config {
     query: String,
     filename: String,
-    case_sensitive: bool
+    case_sensitive: bool,
 }
 
 impl Config {
